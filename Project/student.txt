@@ -1,0 +1,4 @@
+Student name:   Gillian
+Student number: 646985
+Student class:  INF1sC
+URL student GitHub repository: https://github.com/gillian1998/Eind-opdracht-web-markup
