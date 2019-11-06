@@ -1,1 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP|Open+Sans|Roboto&display=swap');
+
+@font-face {
+  font-family: 'Montserrat-Regular'; src: url(http://taekwon.eu/646985/fonts/Montserrat-Regular.ttf);
+}
