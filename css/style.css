@@ -93,139 +93,173 @@ input, textarea
 /* Grids in html*/
 #overHaarlem
 {
-
+ grid-area: overTag
 }
 #artMain
 {
+  grid-area: artMainTag
 
 }
 #footMain
 {
+  grid-area: footMainTag
 
 }
 #secSec
 {
+  grid-area: secSecTag
 
 }
 #artSec
 {
+  grid-area: artSecTag
 
 }
 #footSec
 {
+  grid-area: footSecTag
 
 }
 #secSport
 {
+  grid-area: secSportTag
 
 }
 #Sport
 {
+  grid-area: sportTag
 
 }
 #artNau
 {
+  grid-area: artNauTag
 
 }
 #asiNau
 {
+  grid-area: asiNauTag
 
 }
 #artGW
 {
-
+  grid-area: artGWTag
 }
 #asiGW
 {
-
-}#artHWA
+  grid-area: asiGWTag
+}
+#artHWA
 {
-
+  grid-area: artHWATag
 }
 #asiHWA
 {
-
-}#artBlink
+  grid-area: asiHWATag
+}
+#artBlink
 {
-
+  grid-area: artBlinkTag
 }
 #asiBlink
 {
-
-}#artHockey
+  grid-area: asiBlinkTag
+}
+#artHockey
 {
-
+  grid-area: artHockeyTag
 }
 #asiHockey
 {
+  grid-area: asiHockeyTag
 
-}#artKras
+}
+#artKras
 {
+  grid-area: artKrasTag
 
 }
 #asiKras
 {
+  grid-area: asiKrasTag
 
 }#artKano
 {
+  grid-area: artKanoTag
 
 }
 #asiKano
 {
+  grid-area: asiKanoTag
 
-}#artHJC
+}
+#artHJC
 {
+  grid-area: artHJCTag
 
 }
 #asiHJC
 {
+  grid-area: artHJCTag
 
-}#artHLC
+}
+#artHLC
 {
+  grid-area: artHLCTag
 
 }
 #asiHLC
 {
+  grid-area: asiHLCTag
 
 }
 #artKung
 {
+  grid-area: artKungTag
 
 }
 #asiKung
 {
+  grid-area: asiKungTag
 
 }
 #footSport
 {
+  grid-area: footSportTag
 
 }
 #secRef
 {
+  grid-area: secRefTag
 
 }
 #ref
 {
+  grid-area: refTag
 
 }
 #artRef
 {
+  grid-area: artRefTag
 
 }
 #asiRef
 {
+  grid-area: asiRefTag
 
 }
-footRef
+#footRef
 {
+  grid-area: footRefTag
 
 }
 #secCon
 {
+  grid-area: SecConTag
 
 }
 #Footer
 {
+  grid-area: FooterTag
 
 }
 
