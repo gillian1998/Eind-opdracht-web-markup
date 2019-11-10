@@ -90,26 +90,204 @@ input, textarea
   border: 0.5em
 }
 
-
-
-
-
-
-
-#maincontent
+/* Grids in html*/
+#overHaarlem
 {
 
 }
-#secondarycontent
+#artMain
 {
 
 }
-#sportcontent
+#footMain
 {
 
 }
-#referalcontent
+#secSec
 {
 
 }
-#contactcontent
+#artSec
+{
+
+}
+#footSec
+{
+
+}
+#secSport
+{
+
+}
+#Sport
+{
+
+}
+#artNau
+{
+
+}
+#asiNau
+{
+
+}
+#artGW
+{
+
+}
+#asiGW
+{
+
+}#artHWA
+{
+
+}
+#asiHWA
+{
+
+}#artBlink
+{
+
+}
+#asiBlink
+{
+
+}#artHockey
+{
+
+}
+#asiHockey
+{
+
+}#artKras
+{
+
+}
+#asiKras
+{
+
+}#artKano
+{
+
+}
+#asiKano
+{
+
+}#artHJC
+{
+
+}
+#asiHJC
+{
+
+}#artHLC
+{
+
+}
+#asiHLC
+{
+
+}
+#artKung
+{
+
+}
+#asiKung
+{
+
+}
+#footSport
+{
+
+}
+#secRef
+{
+
+}
+#ref
+{
+
+}
+#artRef
+{
+
+}
+#asiRef
+{
+
+}
+footRef
+{
+
+}
+#secCon
+{
+
+}
+#Footer
+{
+
+}
+
+#grid
+{
+  padding: 1.5em;
+  display: grid;
+  justify-content: center;
+  grid-template-areas:
+  ""
+}
+
+@@media screen and (min-width : 1280px)
+  {
+
+    .tablet, .mobile
+    { display: none; }
+    body
+    { width: 1280px; margin: auto;}
+    h1
+    { font-size: 4em;}
+    h2
+    { font-size: 3em;}
+    ul
+    { font-size: 2em;}
+    article
+    {font-size: 1,7em}
+    li
+    {display: inline-block;}
+    article, aside
+    {
+      padding: 0.9em;
+      border: 0.4em;
+      border-color: #000000;
+      margin: 2em;
+    }
+    #cookie, #footer
+    { font-size: 1,5em;}
+    #secMain
+    {
+
+    }
+    #secSec
+    {
+
+    }
+    #secSport
+    {
+
+    }
+    #secRef
+    {
+
+    }
+    fieldset
+    {
+      margin: 25px;
+    }
+    button
+    {
+      padding: 3%;
+      width: 20%;
+      font-size: 1.4em;
+    }
+  }
