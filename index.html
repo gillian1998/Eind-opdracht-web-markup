@@ -125,8 +125,8 @@
             </footer>
           </Referal>
           <!--Contact-->
-          <Contact id="contactcontent">
-            <section>
+
+            <section id="contactcontent">
               <header>
                 <h2>Contact</h2>
               </header>
@@ -139,12 +139,21 @@
                   Uw voor- en achternaam&#42;:
                   </p>
                   <p>
+                  <input type="text" name="name" placeholder="Voor- en achternaam" required>
+                  </p>
+                  <p>
                   Uw E-mail adres&#42;:
+                  </p>
+                  <p>
+                  <input type="email" name="email" placeholder="vorbeeld@mail.nl" required>
                   </p>
                   <p>
                   Uw vraag of opmerking:
                   </p>
-                  <button type="button" name="button"></Verzend>  
+                  <p>
+                  <textarea name="message" rows="8" cols="40" placeholder="Typ hier uw vraag of opmerking...." required ></textarea>
+                  </p>
+                  <button type="button" name="button">Verzend</button>
                 </fieldset>
               </form>
 
@@ -153,7 +162,7 @@
               <a href="#topheader">Terug naar boven</a>
               &copy;646985
             </footer>
-          </Contact>
+          
           <!--Footer-->
           <footer>
             <p>
