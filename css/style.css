@@ -41,14 +41,17 @@ header
   }
 #topheader
 {
+  grid-area: topheaderTag;
   background-color: #f5f5f5
 }
 #nav
 {
+  grid-area: navTag
   background-color: #fff
 }
 main
 {
+  grid-area: mainTag;
   border: solid 0.25em;
   margin-top: 5em;
   background-color: #f5f5f5
@@ -269,7 +272,14 @@ input, textarea
   display: grid;
   justify-content: center;
   grid-template-areas:
-  ""
+  "topheaderTag"
+  "navTag"
+  "mainTag"
+  "secSecTag"
+  "secSportTag"
+  "secRefTag"
+  "SecConTag"
+  "FooterTag"
 }
 
 @@media screen and (min-width : 1280px)
@@ -299,12 +309,18 @@ input, textarea
     #cookie, #footer
     { font-size: 1,5em;}
     #secMain
-    {
-
+    { display: grid;
+      "overTag     overTag  "
+      "artMainTag           "
+      "artMainTag           "
+      "FooterMainTag   FooterMainTag"
     }
     #secSec
-    {
-
+    { display: grid;
+      "artSecTag            "
+      "artSecTag            "
+      "artSecTag            "
+      "footerSecTag         "
     }
     #secSport
     {
