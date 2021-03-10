@@ -46,7 +46,7 @@ header
 }
 #nav
 {
-  grid-area: navTag
+  grid-area: navTag;
   background-color: #fff
 }
 main
@@ -73,8 +73,8 @@ ul
 }
 .navA
 {
-  display:
-  color:000000;
+  display: flex;
+  color: #000000;
   padding: 1.5em;
   text-decoration: none;
 }
@@ -89,7 +89,7 @@ button
 
 input, textarea
 {
-  background-color: #f5f5f5
+  background-color: #f5f5f5;
   border: 0.5em
 }
 
@@ -282,7 +282,7 @@ input, textarea
   "FooterTag"
 }
 
-@@media screen and (min-width : 1280px)
+@media screen and (min-width : 1280px)
   {
 
     .tablet, .mobile
@@ -296,7 +296,7 @@ input, textarea
     ul
     { font-size: 2em;}
     article
-    {font-size: 1,7em}
+    {font-size: 1.7em}
     li
     {display: inline-block;}
     article, aside
@@ -307,7 +307,7 @@ input, textarea
       margin: 2em;
     }
     #cookie, #footer
-    { font-size: 1,5em;}
+    { font-size: 1.5em;}
     #secMain
     { display: grid;
       "overTag     overTag  "
